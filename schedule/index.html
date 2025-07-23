@@ -8,6 +8,52 @@
     <link rel="stylesheet" href="https://nmagee.github.io/ds2002/stylesheets/github-light.css">
     <link rel="Shortcut Icon" href="https://www.rc.virginia.edu/images/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+    th {
+      background-color: #2c3e50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .note {
+      font-size: 0.95em;
+      color: #555;
+    }
+    .cancelled {
+      color: #b22222;
+      font-weight: bold;
+    }
+    .remote {
+      color: #1e90ff;
+      font-weight: bold;
+    }
+    .final {
+      background-color: #eafaf1;
+      font-weight: bold;
+    }
+  </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -33,6 +79,39 @@
       <section>
         
 <h3>Course Schedule</h3>
+
+  <p class="note">Meeting Days: Mondays & Wednesdays<br>
+  First Class: <strong>Wednesday, August 27</strong><br>
+  Final Class: <strong>Monday, December 8</strong></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Week</th>
+        <th>Monday</th>
+        <th>Wednesday</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>—</td><td><strong>Aug 27</strong></td><td>First class</td></tr>
+      <tr><td>2</td><td>Sep 1</td><td>Sep 3</td><td>Class meets on Labor Day</td></tr>
+      <tr><td>3</td><td>Sep 8</td><td>Sep 10</td><td></td></tr>
+      <tr><td>4</td><td>Sep 15</td><td>Sep 17</td><td></td></tr>
+      <tr><td>5</td><td>Sep 22</td><td>Sep 24</td><td></td></tr>
+      <tr><td>6</td><td>Sep 29</td><td>Oct 1</td><td></td></tr>
+      <tr><td>7</td><td>Oct 6</td><td>Oct 8</td><td></td></tr>
+      <tr><td>8</td><td class="cancelled">Oct 13 (No class)</td><td class="remote">Oct 15 (Pre-recorded)</td><td>No class Monday; pre-recorded lecture Wednesday</td></tr>
+      <tr><td>9</td><td>Oct 20</td><td>Oct 22</td><td></td></tr>
+      <tr><td>10</td><td>Oct 27</td><td>Oct 29</td><td></td></tr>
+      <tr><td>11</td><td>Nov 3</td><td>Nov 5</td><td></td></tr>
+      <tr><td>12</td><td>Nov 10</td><td>Nov 12</td><td></td></tr>
+      <tr><td>13</td><td>Nov 17</td><td>Nov 19</td><td></td></tr>
+      <tr><td>14</td><td>Nov 24</td><td class="cancelled">Nov 26 (No class)</td><td>Thanksgiving week</td></tr>
+      <tr><td>15</td><td>Dec 1</td><td>Dec 3</td><td>Final full week</td></tr>
+      <tr class="final"><td>16</td><td>Dec 8</td><td>—</td><td>Final class</td></tr>
+    </tbody>
+  </table>
 
 <table>
   <thead>
